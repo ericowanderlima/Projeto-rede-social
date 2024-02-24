@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100vw;
+    height: 100vh;
+}
+
+body{
+    position: relative;
+    background-color: black;
+    background-image: url(../imagens/fundo-madeira.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.265);
+    color: white;
+    text-align:end;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+
+section#rede-social{
+    position: absolute;
+    right: 0px;
+    background-color: rgba(0, 0, 0, 0.263);
+    padding: 20px;
+    height: 88.99vh;
+    border-radius: 0 0 10px 10px;
+}
+
+section#rede-social img{
+    display: block;
+    width: 50px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    margin: 20px 0 15px 0; 
+}
+
+
